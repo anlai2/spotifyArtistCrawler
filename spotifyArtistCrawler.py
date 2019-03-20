@@ -10,7 +10,8 @@ artists = [
     "Diplo",
     "RÜFÜS DU SOL",
     "BLACKPINK",
-    "Anderson.Paak & The Free Nationals",
+    "Anderson.Paak",
+    "The Free Nationals"
     "Kacey Musgraves",
     "Juice WRLD",
     "Ella Mai",
@@ -62,8 +63,6 @@ artists = [
     "Tomasa del Real",
     "Las Robertas",
     "Dave P.",
-    "",
-    "Saturday",
     "Tame Impala",
     "Solange",
     "Kid Cudi",
@@ -118,8 +117,6 @@ artists = [
     "The Messthetics",
     "The Red Pears",
     "Heidi Lawden",
-    "",
-    "Sunday",
     "Ariana Grande",
     "Khalid",
     "Zedd",
@@ -175,16 +172,14 @@ artists = [
 ]
 
 artistOutput = []
+headers = {"Authorization": "Bearer BQBPK2bbeecl2EK0CrZ-LqxBQz7dDyaqjBX2FxYUlgPKO93B1qIMT5QJtukn1mPnNpI0hPP33G6Yr8wHnmN54dOR6TAPkM9RWm-EOVHeIGBE1oz8kvy-9ixpGjTvTybqdK2XQSEBu-Aqsjcb9w"}
 
 for artist in artists:
-    print(urllib.parse.quote_plus(artist))
-
-headers = {"Authorization": "Bearer BQBPK2bbeecl2EK0CrZ-LqxBQz7dDyaqjBX2FxYUlgPKO93B1qIMT5QJtukn1mPnNpI0hPP33G6Yr8wHnmN54dOR6TAPkM9RWm-EOVHeIGBE1oz8kvy-9ixpGjTvTybqdK2XQSEBu-Aqsjcb9w"}
-req = requests.get(
-    "https://api.spotify.com/v1/search?q=DJ%20Snake&type=artist", headers=headers)
-
-artistOutput.append(req.json())
-print(req.json())
+    urlencodedArtist = urllib.parse.quote_plus(artist)
+    req = requests.get(
+        "https://api.spotify.com/v1/search?q=" + str(urlencodedArtist) + "&type=artist", headers=headers)
+    artistOutput.append(req.json())
+    print(artist)
 
 with open('artistsOutput.json', 'w') as outputFile:
     json.dump(artistOutput, outputFile, indent=4)
