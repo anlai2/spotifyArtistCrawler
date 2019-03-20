@@ -1,0 +1,319 @@
+[
+    {
+        "artists": {
+            "href": "https://api.spotify.com/v1/search?query=DJ+Snake&type=artist&market=US&offset=0&limit=20",
+            "items": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/540vIaP2JwjQb9dm3aArA4"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 4248371
+                    },
+                    "genres": [
+                        "dance pop",
+                        "edm",
+                        "electronic trap",
+                        "pop",
+                        "tropical house"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/540vIaP2JwjQb9dm3aArA4",
+                    "id": "540vIaP2JwjQb9dm3aArA4",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/def80dfa0d75793a66186b237f6f89051028f0d1",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/3a85e811cb2a98a9106688f2a8ccc2b5617686a2",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/a80f4b8515f8d0bd5dd7de61469c31be1ca2fa9a",
+                            "width": 160
+                        }
+                    ],
+                    "name": "DJ Snake",
+                    "popularity": 85,
+                    "type": "artist",
+                    "uri": "spotify:artist:540vIaP2JwjQb9dm3aArA4"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6LfRKKiOHyxMuei2Pn3kMl"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 4266
+                    },
+                    "genres": [],
+                    "href": "https://api.spotify.com/v1/artists/6LfRKKiOHyxMuei2Pn3kMl",
+                    "id": "6LfRKKiOHyxMuei2Pn3kMl",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/4838e205c60f1e92d80929688cdf0e09428a914c",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/7312eb88c4849e73be360db721f48681d024d1e8",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/97019cf125a827c74c24f861d3e64b57feb87108",
+                            "width": 64
+                        }
+                    ],
+                    "name": "DJ Snake",
+                    "popularity": 34,
+                    "type": "artist",
+                    "uri": "spotify:artist:6LfRKKiOHyxMuei2Pn3kMl"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3ckkbvcbaJ6QnqmHGPaX6b"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 523
+                    },
+                    "genres": [],
+                    "href": "https://api.spotify.com/v1/artists/3ckkbvcbaJ6QnqmHGPaX6b",
+                    "id": "3ckkbvcbaJ6QnqmHGPaX6b",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/eed49c5deb26d1c29c65315ba281e2a2a734f4cf",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/8378d7426d74ec880a9f3f5b93dd70c9c3ac861a",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/c99de05b723d733a86f7e826d8509a0128c928e1",
+                            "width": 64
+                        }
+                    ],
+                    "name": "DJ Snake",
+                    "popularity": 26,
+                    "type": "artist",
+                    "uri": "spotify:artist:3ckkbvcbaJ6QnqmHGPaX6b"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6x6Gqn5iSdTEcUZAdJ2UId"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 969
+                    },
+                    "genres": [],
+                    "href": "https://api.spotify.com/v1/artists/6x6Gqn5iSdTEcUZAdJ2UId",
+                    "id": "6x6Gqn5iSdTEcUZAdJ2UId",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/0bf1390a39ffc2ff52d7ced2a171f9834854d437",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/60de16ce3e12795c1c461475c89b4ab75b5d0700",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/f6e12891e94a2220d7a7d4f96615b6392714f13b",
+                            "width": 64
+                        }
+                    ],
+                    "name": "DJ Snake",
+                    "popularity": 30,
+                    "type": "artist",
+                    "uri": "spotify:artist:6x6Gqn5iSdTEcUZAdJ2UId"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/08D4g5qIkSY71Y6IEbsNLd"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 442
+                    },
+                    "genres": [],
+                    "href": "https://api.spotify.com/v1/artists/08D4g5qIkSY71Y6IEbsNLd",
+                    "id": "08D4g5qIkSY71Y6IEbsNLd",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/0a95f1a970465f00f4b3050f5ae6c21357b13248",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/b8de7649ab9a7fdfc028eff5b022d93a5182f05f",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/2a1d0c3e9519e40d104433b3fa504bfcef4e9250",
+                            "width": 64
+                        }
+                    ],
+                    "name": "DJ Snake Machine",
+                    "popularity": 15,
+                    "type": "artist",
+                    "uri": "spotify:artist:08D4g5qIkSY71Y6IEbsNLd"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3KgEwiy1phnU3RQo6IHplZ"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 2303
+                    },
+                    "genres": [],
+                    "href": "https://api.spotify.com/v1/artists/3KgEwiy1phnU3RQo6IHplZ",
+                    "id": "3KgEwiy1phnU3RQo6IHplZ",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/99fa3075f3b53a8d90217e8be89ef64ebc1fa706",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/73370c09b650dec4e57b639c98b54e6c1ca13d16",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/cbdfd3d51b3fe5802478c0e147156edf6b63815b",
+                            "width": 64
+                        }
+                    ],
+                    "name": "DJ Snake",
+                    "popularity": 23,
+                    "type": "artist",
+                    "uri": "spotify:artist:3KgEwiy1phnU3RQo6IHplZ"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1qailX8HuiODlAqVok9ofx"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 89
+                    },
+                    "genres": [],
+                    "href": "https://api.spotify.com/v1/artists/1qailX8HuiODlAqVok9ofx",
+                    "id": "1qailX8HuiODlAqVok9ofx",
+                    "images": [],
+                    "name": "Dj Snake & DJ AK",
+                    "popularity": 1,
+                    "type": "artist",
+                    "uri": "spotify:artist:1qailX8HuiODlAqVok9ofx"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0DQFhRkYwIvuSWW5lGkVzT"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 2
+                    },
+                    "genres": [],
+                    "href": "https://api.spotify.com/v1/artists/0DQFhRkYwIvuSWW5lGkVzT",
+                    "id": "0DQFhRkYwIvuSWW5lGkVzT",
+                    "images": [],
+                    "name": "DJ Snake SA",
+                    "popularity": 0,
+                    "type": "artist",
+                    "uri": "spotify:artist:0DQFhRkYwIvuSWW5lGkVzT"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1G3yBsTEm77rcLOTyzgXiZ"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 46
+                    },
+                    "genres": [],
+                    "href": "https://api.spotify.com/v1/artists/1G3yBsTEm77rcLOTyzgXiZ",
+                    "id": "1G3yBsTEm77rcLOTyzgXiZ",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/32a5bb4bbe469f3834d1eb35e16e040999f140d7",
+                            "width": 640
+                        },
+                        {
+                            "height": 300,
+                            "url": "https://i.scdn.co/image/d5345c139e366d830cf20bb9ef4fe6f2d47ad4b5",
+                            "width": 300
+                        },
+                        {
+                            "height": 64,
+                            "url": "https://i.scdn.co/image/da66146eb592a599d956d853ea7046b1fa21fbb7",
+                            "width": 64
+                        }
+                    ],
+                    "name": "DJ Tripolar Snake",
+                    "popularity": 0,
+                    "type": "artist",
+                    "uri": "spotify:artist:1G3yBsTEm77rcLOTyzgXiZ"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/3hlLIAMtz957FH2JxoxUEF"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 0
+                    },
+                    "genres": [],
+                    "href": "https://api.spotify.com/v1/artists/3hlLIAMtz957FH2JxoxUEF",
+                    "id": "3hlLIAMtz957FH2JxoxUEF",
+                    "images": [],
+                    "name": "DJ C-Snake",
+                    "popularity": 0,
+                    "type": "artist",
+                    "uri": "spotify:artist:3hlLIAMtz957FH2JxoxUEF"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/6xDvmA9jsMcMkjDWjYgKeq"
+                    },
+                    "followers": {
+                        "href": null,
+                        "total": 8
+                    },
+                    "genres": [],
+                    "href": "https://api.spotify.com/v1/artists/6xDvmA9jsMcMkjDWjYgKeq",
+                    "id": "6xDvmA9jsMcMkjDWjYgKeq",
+                    "images": [],
+                    "name": "DJ Snake House",
+                    "popularity": 0,
+                    "type": "artist",
+                    "uri": "spotify:artist:6xDvmA9jsMcMkjDWjYgKeq"
+                }
+            ],
+            "limit": 20,
+            "next": null,
+            "offset": 0,
+            "previous": null,
+            "total": 11
+        }
+    }
+]

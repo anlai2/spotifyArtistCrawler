@@ -1,4 +1,5 @@
 import requests
+import json
 import urllib.parse
 
 artists = [
@@ -173,6 +174,8 @@ artists = [
     "Tara Brooks"
 ]
 
+artistOutput = []
+
 for artist in artists:
     print(urllib.parse.quote_plus(artist))
 
@@ -180,4 +183,8 @@ headers = {"Authorization": "Bearer BQBPK2bbeecl2EK0CrZ-LqxBQz7dDyaqjBX2FxYUlgPK
 req = requests.get(
     "https://api.spotify.com/v1/search?q=DJ%20Snake&type=artist", headers=headers)
 
+artistOutput.append(req.json())
 print(req.json())
+
+with open('artistsOutput.json', 'w') as outputFile:
+    json.dump(artistOutput, outputFile, indent=4)
