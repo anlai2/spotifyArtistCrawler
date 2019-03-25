@@ -10,8 +10,7 @@ artists = [
     "Diplo",
     "RÜFÜS DU SOL",
     "BLACKPINK",
-    "Anderson.Paak",
-    "The Free Nationals"
+    "Anderson Paak",
     "Kacey Musgraves",
     "Juice WRLD",
     "Ella Mai",
@@ -59,7 +58,7 @@ artists = [
     "Lauren Lane",
     "Still Woozy",
     "Bakar",
-    "Blond:ish",
+    "https://api.spotify.com/v1/artists/6zsJjoCtL1WByG0VsuFWzR",
     "Tomasa del Real",
     "Las Robertas",
     "Dave P.",
@@ -84,7 +83,8 @@ artists = [
     "Tale Of Us",
     "Mr. Eazi",
     "Sabrina Claudio",
-    "Ty Segall & White Fence",
+    "Ty Segall",
+    "White Fence",
     "Deep Dish",
     "Smino",
     "FKJ",
@@ -92,7 +92,6 @@ artists = [
     "Idris Elba",
     "Parcels",
     "Jain",
-    "Soulection",
     "Turnover",
     "SALES",
     "Stephan Bodzin",
@@ -116,7 +115,6 @@ artists = [
     "Javiera Mena",
     "The Messthetics",
     "The Red Pears",
-    "Heidi Lawden",
     "Ariana Grande",
     "Khalid",
     "Zedd",
@@ -172,14 +170,25 @@ artists = [
 ]
 
 artistOutput = []
-headers = {"Authorization": "Bearer BQBPK2bbeecl2EK0CrZ-LqxBQz7dDyaqjBX2FxYUlgPKO93B1qIMT5QJtukn1mPnNpI0hPP33G6Yr8wHnmN54dOR6TAPkM9RWm-EOVHeIGBE1oz8kvy-9ixpGjTvTybqdK2XQSEBu-Aqsjcb9w"}
+headers = {"Authorization": "Bearer BQDs0oTc_jHbZ_wcRR993zlJG8j7pug3MBSACNI0ivNTrkW-p5t7nNLsGp1SY0Czy4EPsVG2wNhH4mK-NbFKSBcTgxAUydP1HlN9WVC5eQvGYGpabStn0oEh8c-Fh5__MRCANZIQMVjznd44ow"}
 
 for artist in artists:
-    urlencodedArtist = urllib.parse.quote_plus(artist)
-    req = requests.get(
-        "https://api.spotify.com/v1/search?q=" + str(urlencodedArtist) + "&type=artist", headers=headers)
-    artistOutput.append(req.json())
-    print(artist)
+    if not "https://api" in artist:
+        urlencodedArtist = urllib.parse.quote_plus(artist)
+        req = requests.get(
+            "https://api.spotify.com/v1/search?q=" + str(urlencodedArtist) + "&type=artist", headers=headers)
+        res = req.json()
+        firstResult = res["artists"]["items"][0]
+        res["artists"]["items"] = [firstResult]
+        artistOutput.append(res)
+        print(artist)
+    else:
+        # Search for specific artist with given artistID with URL since some artists are not detected using their full name (Ex: Blond:ish)
+        req = requests.get(artist, headers=headers)
+        artistsDict = {}
+        artistsDict['artists'] = {'items': [req.json()]}
+        artistOutput.append(artistsDict)
+        print(artist)
 
 with open('artistsOutput.json', 'w') as outputFile:
     json.dump(artistOutput, outputFile, indent=4)
