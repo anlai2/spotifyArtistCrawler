@@ -58,7 +58,7 @@
                     },
                     "followers": {
                         "href": null,
-                        "total": 167946
+                        "total": 167947
                     },
                     "genres": [
                         "brostep",
@@ -107,7 +107,7 @@
                     },
                     "followers": {
                         "href": null,
-                        "total": 413730
+                        "total": 413735
                     },
                     "genres": [
                         "alternative hip hop",
@@ -220,7 +220,7 @@
                     },
                     "followers": {
                         "href": null,
-                        "total": 472982
+                        "total": 472985
                     },
                     "genres": [
                         "chillhop",
@@ -272,7 +272,7 @@
                     },
                     "followers": {
                         "href": null,
-                        "total": 374463
+                        "total": 374464
                     },
                     "genres": [
                         "alternative dance",
@@ -326,7 +326,7 @@
                     },
                     "followers": {
                         "href": null,
-                        "total": 298009
+                        "total": 298019
                     },
                     "genres": [
                         "neo-psychedelic"
@@ -870,7 +870,7 @@
                     },
                     "followers": {
                         "href": null,
-                        "total": 329983
+                        "total": 329986
                     },
                     "genres": [
                         "alternative r&b",
@@ -972,7 +972,7 @@
                     },
                     "followers": {
                         "href": null,
-                        "total": 51057
+                        "total": 51059
                     },
                     "genres": [
                         "alternative r&b",
@@ -1220,7 +1220,7 @@
                     },
                     "followers": {
                         "href": null,
-                        "total": 21348
+                        "total": 21349
                     },
                     "genres": [
                         "brostep",
@@ -1324,7 +1324,7 @@
                     },
                     "followers": {
                         "href": null,
-                        "total": 22271
+                        "total": 22273
                     },
                     "genres": [
                         "vapor twitch"
@@ -1422,7 +1422,7 @@
                     },
                     "followers": {
                         "href": null,
-                        "total": 17986
+                        "total": 17987
                     },
                     "genres": [
                         "la pop"
@@ -2216,35 +2216,6 @@
     },
     {
         "artists": {
-            "href": "https://api.spotify.com/v1/search?query=Duchess&type=artist&market=US&offset=0&limit=20",
-            "items": [
-                {
-                    "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/4VKmshJh2mCHAWa9fhZAyv"
-                    },
-                    "followers": {
-                        "href": null,
-                        "total": 26
-                    },
-                    "genres": [],
-                    "href": "https://api.spotify.com/v1/artists/4VKmshJh2mCHAWa9fhZAyv",
-                    "id": "4VKmshJh2mCHAWa9fhZAyv",
-                    "images": [],
-                    "name": "Duchess",
-                    "popularity": 21,
-                    "type": "artist",
-                    "uri": "spotify:artist:4VKmshJh2mCHAWa9fhZAyv"
-                }
-            ],
-            "limit": 20,
-            "next": "https://api.spotify.com/v1/search?query=Duchess&type=artist&market=US&offset=20&limit=20",
-            "offset": 0,
-            "previous": null,
-            "total": 44
-        }
-    },
-    {
-        "artists": {
             "href": "https://api.spotify.com/v1/search?query=Dimond+Saints&type=artist&market=US&offset=0&limit=20",
             "items": [
                 {
@@ -2478,60 +2449,43 @@
     },
     {
         "artists": {
-            "href": "https://api.spotify.com/v1/search?query=Joe+Kay&type=artist&market=US&offset=0&limit=20",
             "items": [
                 {
                     "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/6pZyTAYOLTFtnGDR5BvpEH"
+                        "spotify": "https://open.spotify.com/artist/53ZQc2LGjVFkhzbC6zBggA"
                     },
                     "followers": {
                         "href": null,
-                        "total": 40
+                        "total": 282
                     },
-                    "genres": [],
-                    "href": "https://api.spotify.com/v1/artists/6pZyTAYOLTFtnGDR5BvpEH",
-                    "id": "6pZyTAYOLTFtnGDR5BvpEH",
-                    "images": [],
-                    "name": "Kay Starr featuring Novelty Orchestra w/Joe Venuti and Les Paul",
-                    "popularity": 7,
+                    "genres": [
+                        "abstract beats"
+                    ],
+                    "href": "https://api.spotify.com/v1/artists/53ZQc2LGjVFkhzbC6zBggA",
+                    "id": "53ZQc2LGjVFkhzbC6zBggA",
+                    "images": [
+                        {
+                            "height": 640,
+                            "url": "https://i.scdn.co/image/1c34f646b587956d89e31dd0d0dde8f210ce31ee",
+                            "width": 640
+                        },
+                        {
+                            "height": 320,
+                            "url": "https://i.scdn.co/image/4ba97a29ebf6163dd7a6499983ec4202ddfa3bb3",
+                            "width": 320
+                        },
+                        {
+                            "height": 160,
+                            "url": "https://i.scdn.co/image/27643ed83c09ebc692683430ac3e80fcabfa088e",
+                            "width": 160
+                        }
+                    ],
+                    "name": "Joe Kay",
+                    "popularity": 1,
                     "type": "artist",
-                    "uri": "spotify:artist:6pZyTAYOLTFtnGDR5BvpEH"
+                    "uri": "spotify:artist:53ZQc2LGjVFkhzbC6zBggA"
                 }
-            ],
-            "limit": 20,
-            "next": null,
-            "offset": 0,
-            "previous": null,
-            "total": 3
-        }
-    },
-    {
-        "artists": {
-            "href": "https://api.spotify.com/v1/search?query=Sasha+Marie&type=artist&market=US&offset=0&limit=20",
-            "items": [
-                {
-                    "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/1420MRUZd6TQArseSGg4nt"
-                    },
-                    "followers": {
-                        "href": null,
-                        "total": 3
-                    },
-                    "genres": [],
-                    "href": "https://api.spotify.com/v1/artists/1420MRUZd6TQArseSGg4nt",
-                    "id": "1420MRUZd6TQArseSGg4nt",
-                    "images": [],
-                    "name": "Sasha Marie",
-                    "popularity": 0,
-                    "type": "artist",
-                    "uri": "spotify:artist:1420MRUZd6TQArseSGg4nt"
-                }
-            ],
-            "limit": 20,
-            "next": null,
-            "offset": 0,
-            "previous": null,
-            "total": 1
+            ]
         }
     },
     {
@@ -2855,35 +2809,6 @@
             "offset": 0,
             "previous": null,
             "total": 3
-        }
-    },
-    {
-        "artists": {
-            "href": "https://api.spotify.com/v1/search?query=Anna+Morgan&type=artist&market=US&offset=0&limit=20",
-            "items": [
-                {
-                    "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/30X6dIzlcixPlRNNYesrA4"
-                    },
-                    "followers": {
-                        "href": null,
-                        "total": 142
-                    },
-                    "genres": [],
-                    "href": "https://api.spotify.com/v1/artists/30X6dIzlcixPlRNNYesrA4",
-                    "id": "30X6dIzlcixPlRNNYesrA4",
-                    "images": [],
-                    "name": "Anna Morgan",
-                    "popularity": 4,
-                    "type": "artist",
-                    "uri": "spotify:artist:30X6dIzlcixPlRNNYesrA4"
-                }
-            ],
-            "limit": 20,
-            "next": null,
-            "offset": 0,
-            "previous": null,
-            "total": 7
         }
     },
     {

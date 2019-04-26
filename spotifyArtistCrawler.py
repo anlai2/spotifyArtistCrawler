@@ -55,14 +55,12 @@ artists = [
     "Vnssa",
     "Anton Tumas",
     "Zach Walker",
-    "Duchess",
     "Dimond Saints",
     "Spectrasoul",
     "SP:MC",
     "https://api.spotify.com/v1/artists/1YLeUsNujSB7Fp1tnCWZi2",
     "Axel Thesleff",
-    "Joe Kay",
-    "Sasha Marie",
+    "https://api.spotify.com/v1/artists/53ZQc2LGjVFkhzbC6zBggA",
     "Manatee Commune",
     "Soohan",
     "Ill-esha",
@@ -70,7 +68,6 @@ artists = [
     "Megan Hamilton",
     "Dorfex Bos",
     "Kll Smth",
-    "Anna Morgan",
     "Mat the Alien",
     "Aabo",
     "Prsn",
@@ -95,12 +92,21 @@ for artist in artists:
 
         res = req.json()
         
+         # Check if response provided any results, if not skip.
         if len(res["artists"]["items"]) < 1:
             print(artist + " did not find any results!")
             continue;
 
         firstResult = res["artists"]["items"][0]
+        # Check if result provided artist images, if not skip.
+        if len(firstResult["images"]) < 1:
+            print(artist + " did not return any images!")
+            continue;
+
+        # Only use the first result that is returned
         res["artists"]["items"] = [firstResult]
+
+        # Add to our json array
         artistOutput.append(res)
         print(artist)
     else:
@@ -111,5 +117,6 @@ for artist in artists:
         artistOutput.append(artistsDict)
         print(artist)
 
+# Output json array to json obj file
 with open('artistsOutput.json', 'w') as outputFile:
     json.dump(artistOutput, outputFile, indent=4)
